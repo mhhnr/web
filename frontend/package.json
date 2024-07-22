@@ -23,6 +23,8 @@
   "dependencies": {
     "@threlte/core": "^7.3.1",
     "@threlte/extras": "^8.11.4",
+    "flowbite-svelte": "^0.46.15",
+    "flowbite-svelte-icons": "^1.6.1",
     "gsap": "^3.12.5",
     "svelte-cubed": "^0.2.1",
     "svelte-routing": "^2.13.0",

@@ -45,6 +45,12 @@ function triggerBurst() {
           </Link>
         </li>
         <li>
+          <Link to="/projects" on:click={closeMenu}>
+            <i class="icon icon-contact"></i>
+            <span>Projects</span>
+          </Link>
+        </li>
+        <li>
           <Link to="/services" on:click={closeMenu}>
             <i class="icon icon-services"></i>
             <span>Services</span>

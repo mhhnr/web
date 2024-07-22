@@ -6,6 +6,7 @@
     import Services from "./routes/Services.svelte";
     import Contact from "./routes/Contact.svelte";
     import News from "./routes/News.svelte";
+    import Projects from "./routes/Projects.svelte";
     export let url = "";
   </script>
   
@@ -17,6 +18,7 @@
         <Route path="/services" component={Services} />
         <Route path="/contact" component={Contact} />
         <Route path="/news" component={News} />
+        <Route path="/projects" component={Projects} />
       </div>
     </main>
     <Footer />
